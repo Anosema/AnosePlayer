@@ -1,0 +1,73 @@
+*{
+	font-family: themify;
+}
+#TitleBar{
+	background-color: rgb(18, 18, 18);
+	border-bottom: 1px solid #DF00FE;
+}
+#TitleBar #Icon{
+	background-color: transparent;
+	border: none;
+	color: #DF00FE;
+}
+#TitleBar #Label{
+	font-size: 16px;
+	text-decoration: bold;
+}
+
+
+#Button{
+	border: none;
+	background-color: rgb(28, 28, 28);
+	padding-left:0px;
+	font-size: 15px;
+	color: #DF00FE;
+}
+#Button:hover, #Button:focus{
+	font-size: 17px;
+	padding-bottom: 1px;
+}
+#Button:pressed{
+	font-size: 12px;
+	padding-bottom: 0px;
+}
+#Control{
+	border: none;
+	padding-left: 0px;
+	font-size: 26px;
+	color: #DF00FE;
+}
+#Control:hover, #Control:focus{
+	font-size: 29px;
+	padding-bottom: 1px;
+}
+#Control:pressed{
+	font-size: 25px;
+	padding-bottom: 0px;
+}
+#Control::menu-indicator, #Control::menu-indicator:pressed, #Control::menu-indicator:open{
+	width: 0px;
+}
+#Control:open{
+	font-size: 25px;
+	padding-bottom: 0px;
+}
+
+
+.QProgressBar{
+	border: 1px solid rgb(21, 21, 21);
+	border-radius: 2px;
+}
+.QProgressBar::chunk{
+	background-color: #e94dff;
+	border: 1px solid transparent;
+	border-radius: 2px;
+}
+
+
+
+
+
+.MainWindow{
+	background-color: rgb(18, 18, 18);
+}
